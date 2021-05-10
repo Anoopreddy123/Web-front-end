@@ -1,0 +1,63 @@
+body{
+  background-color: #003049;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section
+{
+  display: flex;
+  border: 2px solid #fcbf49;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  height: 40rem;
+  color: #fcbf49;
+  box-shadow: 5px 2px 20px #eae2b7;
+  align-items: center;
+}
+label{
+  font-size:700;
+  font-family: "Poppins", sans-serif;
+}
+
+button{
+ display: flex;
+ align-items: center;
+ position: relative;
+left: 80px;
+ background: none;
+ color: #fcbf49;
+ border:2px solid;
+ padding: 0.5em 2em;
+ transition: all 0.3s;
+}
+button:hover{
+  box-shadow: 0 0.5em 0.5em -0.4em #eae2b7;
+  color: #eae2b7;
+  border-color: #ffe66d;
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+h1{
+  font-weight: 700;
+  font-size: 30px;
+}
+input[type=text],input[type=password] {
+  background-color: #f6f6f6;
+  transition: all 0.5s;
+  color: #0d0d0d;
+  padding: 15px 30px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: fit-content;
+  border: 2px solid #f6f6f6;
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  border-radius: 10px;
+  margin-bottom: 45px;
+}
